@@ -15,6 +15,7 @@ const quote = {
     }
 }
 
+
 const singelWord = {
     initial:{
         opacity:0,

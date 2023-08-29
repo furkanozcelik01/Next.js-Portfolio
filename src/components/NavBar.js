@@ -22,6 +22,7 @@ const CustomLink = ({href, title, className=""}) =>{
                 dark:bg-light`}
             
             >
+                
                 &nbsp;
             </span>
         </Link>
@@ -51,7 +52,7 @@ const NavBar = () => {
             <motion.a href="https://twitter.com" target={"_blank"}
             whileHover={{y:-3 }}
             whileTap={{scale:0.9}}
-            className="w-6 mx-3"
+            className="w-6 mx-3 "
             >
                 <TwitterIcon />
                 </motion.a>
@@ -72,7 +73,7 @@ const NavBar = () => {
             <motion.a href="https://Pinterest.com" target={"_blank"}
             whileHover={{y:-3 }}
             whileTap={{scale:0.9}}
-            className="w-6 mx-3"
+            className="w-6 mx-3 bg-light rounded-full"
             >
                 <PinterestIcon />
                 </motion.a>

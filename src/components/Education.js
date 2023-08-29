@@ -15,7 +15,7 @@ const Details = ({ type, time, place, infon }) => {
                 {type}
 
             </h3>
-            <span className='capitalize font-medium text-dark/75'>
+            <span className='capitalize font-medium text-dark/75 dark:text-light/75'>
                 {time}  | {place}
             </span>
             <p className='font-medium w-full'>
@@ -43,7 +43,7 @@ const Education = () => {
 
             <motion.dev
                     style={{ scaleY: scrollYProgress }}
-                    className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top" />
+                    className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light" />
 
                 <ul className="w-full flex flex-col items-start justify-between ml-4">
                     <Details
