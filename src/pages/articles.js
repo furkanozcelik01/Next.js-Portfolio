@@ -63,7 +63,7 @@ const Article = ({ img, title, date, link }) => {
             className="relative w-full p-4 py-6 my-4 rounded-xl flex 
         items-center justify-between bg-light text-dark first:mt-0 
         border border-solid border-dark
-        border-r-4 border-b-4 dark:border-light dark:bg-dark">
+        border-r-4 border-b-4 dark:border-light dark:bg-dark dark:text-light">
             <MovingImg title={title} img={img} link={link} />
             <span className="text-primary font-semibold pl-4 dark:text-primaryDark">{date}</span>
         </motion.li>
@@ -84,6 +84,10 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
                 <FramerImage src={img} alt={title} className="w-full h-auto"
                     whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.2 }}
+                    priority
+              sizes="(max-width: 768px) 100vw 
+              (max-width: 1200px) 50vw,
+              50vw"
                 />
             </Link >
             <Link href={link} target="-blank">
