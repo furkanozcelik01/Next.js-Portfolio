@@ -9,6 +9,7 @@ import Skills from "@/components/Skills"
 import Experience from "@/components/Experience"
 import Education from "@/components/Education"
 import projects from "./projects"
+import TransitionEffect from "@/components/TransitionEffect"
 
 
 const AnimatedNumbers = ({ value }) => {
@@ -44,6 +45,7 @@ const about = () => {
         <title>CodeBucks | about Page</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect/>
       <main className='flex w-full flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-16'>
           <AnimatedText text="Passion Fuels Purpose" className='mb-16' />
