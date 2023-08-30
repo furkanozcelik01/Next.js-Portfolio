@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 import '@/styles/globals.css'
@@ -6,13 +5,6 @@ import { Montserrat } from "next/font/google"
 import Head from "next/head"
 import { AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/router';
-=======
-import NavBar from "@/components/NavBar";
-import Footer from "@/components/Footer";
-import "@/styles/globals.css";
-import { Montserrat } from "next/font/google";
-import Head from "next/head";
->>>>>>> 2de4d2cedfa956a2842aa5979bbf4194bdbba2ec
 
 const montserrat = Montserrat({
   subsets: ["latin"],

@@ -116,24 +116,6 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
 };
 
 const articles = () => {
-<<<<<<< HEAD
-    return (
-        <>
-            <Head>
-                <title>CodeBucks | Artciles Page</title>
-                <meta name="description" content="any description" />
-            </Head>
-            <TransitionEffect />
-            <main className='w-full mb-16 flex flex-col items-center 
-      justify-center overflow-hidden'>
-                <Layout className="pt-16">
-                    <AnimatedText text="Words Can Change The World! "
-                        className='mb-16' />
-                    <ul className='grid grid-cols-2 gap-16'>
-                        <FeaturedArticle
-                            title="Build A Custom Pagination Component In Reactjs From Scratch"
-                            summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-=======
   return (
     <>
       <Head>
@@ -143,6 +125,7 @@ const articles = () => {
           content="any description"
         />
       </Head>
+      <TransitionEffect/>
       <main
         className="w-full mb-16 flex flex-col items-center 
       justify-center overflow-hidden dark:text-light">
@@ -155,7 +138,6 @@ const articles = () => {
             <FeaturedArticle
               title="Build A Custom Pagination Component In Reactjs From Scratch"
               summary="Learn how to build a custom pagination component in ReactJS from scratch. 
->>>>>>> 2de4d2cedfa956a2842aa5979bbf4194bdbba2ec
                 Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
               time="9 min read"
               link="/"

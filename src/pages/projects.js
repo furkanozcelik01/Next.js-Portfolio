@@ -6,12 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
-<<<<<<< HEAD
 import {motion} from "framer-motion";        
 import TransitionEffect from "@/components/TransitionEffect";
-=======
-import { motion } from "framer-motion";
->>>>>>> 2de4d2cedfa956a2842aa5979bbf4194bdbba2ec
 
 const FramerImage = motion(Image);
 
@@ -133,26 +129,6 @@ const Project = ({ title, type, img, link, github }) => {
 };
 
 const projects = () => {
-<<<<<<< HEAD
-    return (
-        <>
-            <Head>
-                <title>CodeBucks | projects Page</title>
-                <meta name="description" content="any description" />
-            </Head>
-            <TransitionEffect/>
-            <main className='w-full mb-16 flex flex-col items-center justify-center'>
-                <Layout className='pt-16'>
-                    <AnimatedText text="Imagination Trumps Knowledge!"
-                        className='mb-16'
-                    />
-                    <div className='grid grid-cols-12 gap-24 gap-y-32'>
-                        <div className='col-span-12'>
-                            <FeaturedProject
-                                title="Crypto Screener Application"
-                                img={project1}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-=======
   return (
     <>
       <Head>
@@ -162,6 +138,7 @@ const projects = () => {
           content="any description"
         />
       </Head>
+      <TransitionEffect/>
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light  ">
         <Layout className="pt-16">
           <AnimatedText
@@ -174,7 +151,6 @@ const projects = () => {
                 title="Crypto Screener Application"
                 img={project1}
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
->>>>>>> 2de4d2cedfa956a2842aa5979bbf4194bdbba2ec
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
                 link="/"
