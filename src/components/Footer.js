@@ -25,7 +25,7 @@ const Footer = () => {
             className="underline underline-offset-2
                 "
             target={"_blank"}>
-            CodeBucks
+            Furkan OZCELIK
           </Link>
         </div>
         <Link
@@ -34,7 +34,7 @@ const Footer = () => {
                 "
           target={"_blank"}>
           {" "}
-          Say Hellwo
+          Say Hello
         </Link>
       </Layout>
     </footer>

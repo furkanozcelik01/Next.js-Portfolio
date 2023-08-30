@@ -39,7 +39,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>CodeBucks | about Page</title>
+        <title>Furkan OZCELIK | about Page</title>
         <meta
           name="description"
           content="any description"
@@ -58,7 +58,7 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with
+                Hi, I&apos;m Furkan OZCELIK, a web developer and UI/UX designer with
                 a passion for creating beautiful, functional, and user-centered
                 digital experiences. With 4 years of experience in the field. I
                 am always looking for new and innovative ways to bring my
@@ -85,7 +85,7 @@ const about = () => {
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
                 src={profilePic}
-                alt="Codebucks"
+                alt="Furkan OZCELIK"
                 className="w-full h-auto rounded-2xl"
                 priority
                 sizes="(max-width: 768px) 100vw, 

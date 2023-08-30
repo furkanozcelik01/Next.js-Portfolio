@@ -132,7 +132,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>CodeBucks | projects Page</title>
+        <title>Furkan OZCELIK | projects Page</title>
         <meta
           name="description"
           content="any description"

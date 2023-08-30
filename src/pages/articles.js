@@ -119,7 +119,7 @@ const articles = () => {
   return (
     <>
       <Head>
-        <title>CodeBucks | Artciles Page</title>
+        <title>Furkan OZCELIK | Artciles Page</title>
         <meta
           name="description"
           content="any description"
